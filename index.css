@@ -1,0 +1,57 @@
+* {
+	font-family: "Roboto", sans-serif;
+	/*semicolon:  delimeter*/
+}
+
+h1, h2 {
+	font-family: "Montserrat", sans-serif; 
+}
+
+img {
+	height: 200px;
+	width: 200px;
+}
+
+#landing {
+	height: 80vh;
+	/*vh=relative to, viewport-height*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.jumbotron {
+	background-color: transparent;
+}
+
+#gallery {
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 6px;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+h2{
+	color: darksalmon;
+}
+
+.tools {
+	padding: 25px;
+	height: 200px;
+	border: 5px solid #f2f2f2;
+	margin: 20px;
+	width: 75%;
+	color: white;
+}
+
+html {
+	scroll-behavior: smooth;
+}
